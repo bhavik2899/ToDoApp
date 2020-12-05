@@ -1,0 +1,47 @@
+body {
+  min-width: 250px;
+  max-width: 50%;
+  font-size: 18px;
+  margin: auto;
+  background-image: url("../images/image_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.danger{
+  color:#dc3545;
+}
+
+#myInput {
+  margin: 0;
+  border-radius: 0;
+  border: 1px solid;
+  padding: 10px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.completed{
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+#myTable{
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 50px -15px rgba(0,0,0,0.36);
+}
+
+#myTable tr:hover{
+  background: #eee;
+}
+
+.removeBtn:hover{
+  background-color: #bbb;
+}
+
+
